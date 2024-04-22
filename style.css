@@ -7,22 +7,10 @@ button {
     padding: 2em;
 }
 
-.flex-container>div {
-    display: flex;
-    padding: 30px;
-    margin: 30px;
-    background-color: #ffffff;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 10px;
-
+.special_class {
+    column-count: 0;
 }
 
-text {
-    width: 50%;
-    padding: 30px;
-    margin: 30px;
-}
 
 .flex-container {
     display: flex;
@@ -31,6 +19,7 @@ text {
     background-color: #FFFFFF;
     padding: 1em;
     margin: auto;
+
 
 }
 
@@ -58,51 +47,71 @@ text {
 
 
 img {
-    width: 50px;
-    height: 50px;
-    position: static;
-}
-
-p {
-    font-size: 18px;
-    max-width: 400px;
     width: auto;
-    line-height-step: 21.94px;
+    height: auto;
+    position: static;
+    align-items: left;
 }
 
-#block {
+
+.fl>h1 {
+    text-align: left;
+
+
+}
+
+.flex-container>.card {
     background-color: #F6F8FA;
-
-}
-
-.fl>div {
-
+    display: flex;
+    text-align: center;
     padding: 30px;
     margin: 30px;
-    background-color: #ffffff;
-    text-align: center;
-    font-size: 30px;
-    display: flex;
+    font-size: auto;
     border-radius: 10px;
+
 
 }
 
+
 .fl {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     background-color: #FFFFFF;
     padding: 1em;
     margin: auto;
     padding: 55px;
+    font-size: auto;
+    flex-wrap: wrap;
+
 }
 
-body {
-    max-width: 100%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    gap: 1em;
-    display: flex;
-    align-items: center;
-    flex-grow: unset;
+@media screen and (min-width: 768px) {
+
+    .card{
+        width: 400PX;
+        height: max-content;
+    }
+}
+
+/* @media screen and (min-width: 768px) {
+
+    .p {
+        display: flex;
+        align-items: center;
+        font-size: flex;
+        width: 400;
+        height: 150;
+    }
+}
+ */
+@media screen and (orientation: landscape) and (min-width:500px) {
+
+    .special_class {
+        column-count: 2;
+    }
+
+}
+
+@media screen and (orientation: portrait) and (min-width: 500px){
+    .special_class {
+        column-count: 2;
+    }
 }
