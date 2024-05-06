@@ -22,6 +22,8 @@
     font-size: auto; 
     font-weight: bold;
     border-width: 1px;
+    text-decoration: none;
+    font-size: auto;
  }
 
 .btn_log_in:link, .btn_log-in:visited {
@@ -36,7 +38,7 @@
     border-style: solid;
     border-color: #535353;
     background-color:#ffffff; 
-    color: rgb(255, 255, 255);
+    text-decoration: rgb(255, 255, 255);
  } 
 
 .btn_log_in_fb:link, .btn_log-in_fb:visited {
@@ -45,7 +47,7 @@
     border-style: solid;
     border-color: #535353;
     background-color:#1877F2; 
-    color: black;
+    text-decoration: black;
  } 
 
 .form_view {
