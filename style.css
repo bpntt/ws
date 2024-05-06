@@ -1,3 +1,4 @@
+
 button {
     color: #6898F9;
     background-color: #FFFFFF;
@@ -85,23 +86,12 @@ img {
 
 @media screen and (min-width: 768px) {
 
-    .card{
+    .card {
         width: 400PX;
         height: max-content;
     }
 }
 
-/* @media screen and (min-width: 768px) {
-
-    .p {
-        display: flex;
-        align-items: center;
-        font-size: flex;
-        width: 400;
-        height: 150;
-    }
-}
- */
 @media screen and (orientation: landscape) and (min-width:500px) {
 
     .special_class {
@@ -110,7 +100,7 @@ img {
 
 }
 
-@media screen and (orientation: portrait) and (min-width: 500px){
+@media screen and (orientation: portrait) and (min-width: 500px) {
     .special_class {
         column-count: 2;
     }

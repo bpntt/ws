@@ -1,0 +1,68 @@
+.container_1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.normal_block{
+    transform: scale(1.2);
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 5px 25px;
+    min-width: 25px;
+    min-height: 10px;
+    font-size: auto; 
+    font-weight: bold;
+    border-width: 1px;
+ }
+
+.btn_log_in:link, .btn_log-in:visited {
+
+    border-radius: 35px;
+    background-color: #6898F9; 
+ } 
+
+.btn_log_in_goo:link, .btn_log-in_goo:visited {
+    padding: 5px 70px;
+    border-radius: 35px;
+    border-style: solid;
+    border-color: #535353;
+    background-color:#ffffff; 
+    color: rgb(255, 255, 255);
+ } 
+
+.btn_log_in_fb:link, .btn_log-in_fb:visited {
+    padding: 5px 73px;
+    border-radius: 35px;
+    border-style: solid;
+    border-color: #535353;
+    background-color:#1877F2; 
+    color: black;
+ } 
+
+.form_view {
+    align-items: center;
+    border-radius: 2px;
+    padding: auto;
+    margin: auto;
+}
+
+.img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
+hr {
+    height: 1px; 
+    width: 20%; 
+    margin: auto;
+  }
